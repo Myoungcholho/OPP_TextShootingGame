@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Scene">
+      <UniqueIdentifier>{de63e822-84f3-4eef-b49d-5531c4a2ab00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\TextFile">
+      <UniqueIdentifier>{b87c7bb7-fdeb-4865-b55b-a61a10aacfa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\File_I/O">
+      <UniqueIdentifier>{49c13651-88c7-4edd-b8bd-85058ad8cadd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Main">
+      <UniqueIdentifier>{6b59eaa7-1e17-4987-bbdc-9328ed51348c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CBaseObject.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CBulletObject.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CEnemyBullet.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CEnemyObject.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CObjectManger.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Console.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerObject.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="szScreen.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="InfoFile.cpp">
+      <Filter>소스 파일\File_I/O</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterMoveInfo.cpp">
+      <Filter>소스 파일\File_I/O</Filter>
+    </ClCompile>
+    <ClCompile Include="Clear.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="End.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Over.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneBase.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManger.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일\Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CBaseObject.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CBulletObject.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CEnemyBullet.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CEnemyObject.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CObjectManger.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerObject.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="linkedlist.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="szScreen.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="InfoFile.h">
+      <Filter>소스 파일\File_I/O</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterMoveInfo.h">
+      <Filter>소스 파일\File_I/O</Filter>
+    </ClInclude>
+    <ClInclude Include="structEnemy.h">
+      <Filter>소스 파일\File_I/O</Filter>
+    </ClInclude>
+    <ClInclude Include="Clear.h">
+      <Filter>소스 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="End.h">
+      <Filter>소스 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>소스 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Over.h">
+      <Filter>소스 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneBase.h">
+      <Filter>소스 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManger.h">
+      <Filter>소스 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Title.h">
+      <Filter>소스 파일\Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="EnemyMoveInfo.txt">
+      <Filter>소스 파일\TextFile</Filter>
+    </Text>
+    <Text Include="Move1.txt">
+      <Filter>소스 파일\TextFile</Filter>
+    </Text>
+    <Text Include="Move2.txt">
+      <Filter>소스 파일\TextFile</Filter>
+    </Text>
+    <Text Include="Move3.txt">
+      <Filter>소스 파일\TextFile</Filter>
+    </Text>
+    <Text Include="stage1.txt">
+      <Filter>소스 파일\TextFile</Filter>
+    </Text>
+    <Text Include="stage2.txt">
+      <Filter>소스 파일\TextFile</Filter>
+    </Text>
+    <Text Include="stage3.txt">
+      <Filter>소스 파일\TextFile</Filter>
+    </Text>
+    <Text Include="stageinfo.txt">
+      <Filter>소스 파일\TextFile</Filter>
+    </Text>
+    <Text Include="메모장.txt">
+      <Filter>소스 파일\TextFile</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

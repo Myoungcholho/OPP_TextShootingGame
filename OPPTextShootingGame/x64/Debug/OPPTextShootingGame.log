@@ -1,0 +1,23 @@
+﻿  CBaseObject.cpp
+  CBulletObject.cpp
+  CEnemyBullet.cpp
+  CEnemyObject.cpp
+  Clear.cpp
+  CObjectManger.cpp
+  Console.cpp
+C:\C++\OPPTextShootingGame\OPPTextShootingGame\Console.cpp(69,6): warning C4101: 'iCountX' :참조되지 않은 지역 변수입니다.
+C:\C++\OPPTextShootingGame\OPPTextShootingGame\Console.cpp(69,15): warning C4101: 'iCountY' :참조되지 않은 지역 변수입니다.
+  CPlayerObject.cpp
+  End.cpp
+  Game.cpp
+  InfoFile.cpp
+  main.cpp
+  MonsterMoveInfo.cpp
+  Over.cpp
+  SceneBase.cpp
+  SceneManger.cpp
+  szScreen.cpp
+  Title.cpp
+  코드를 생성하고 있습니다...
+C:\C++\OPPTextShootingGame\OPPTextShootingGame\linkedlist.h(192): warning C4715: 'CList<CBaseObject *>::erase': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  OPPTextShootingGame.vcxproj -> C:\C++\OPPTextShootingGame\x64\Debug\OPPTextShootingGame.exe
